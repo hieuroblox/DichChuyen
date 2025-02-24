@@ -1,0 +1,11 @@
+local player = game.Players. LocalPlayer
+
+
+local banDuration = 9999
+local reason = "Địt Mẹ Lỗi Rồi Đéo Dùng Được Đâu | Đang Fixed 8:30-9:00"
+
+local message = string.format("You were kicked from this experience: \nYou are banned for [%d hours]\nReason: %s\nFuture bans will be PERMANENT. Do not break the rules.",
+banDuration,
+reason
+)
+player: Kick(message)
